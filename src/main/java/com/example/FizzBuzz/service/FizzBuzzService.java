@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+
 @Service
 public class FizzBuzzService {
 
@@ -15,6 +16,7 @@ public class FizzBuzzService {
         for (int i = 1; i <= number; i++) {
             outputList.add(this.convert(i));
         }
+
         return outputList;
     }
 
